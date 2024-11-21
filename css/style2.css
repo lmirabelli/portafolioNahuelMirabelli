@@ -213,3 +213,37 @@ main {
 
 
 }
+
+@media (max-width: 769px) {
+    header{
+        h1{
+            font-size: 32px;
+        }
+    }
+    main{
+        .presentacion{
+            width: 90%;
+        }
+        .imagenes, .titulo-carrusel{
+            h2{
+                font-size: 22px;
+            }
+            h3{
+                font-size: 18px;
+            }
+        }
+        .imagenes{
+            .vertical{
+                width: 40%;
+            }
+            .horizontal{
+                width: 80%;
+            }
+        }
+    }
+    footer{
+        .contacto{
+            width: 100%;
+        }
+    }
+}
